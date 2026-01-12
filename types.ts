@@ -7,6 +7,14 @@ export enum AppView {
   ADMIN = 'ADMIN'
 }
 
+export enum AdminSubView {
+  DASHBOARD = 'DASHBOARD',
+  ECONOMY = 'ECONOMY',
+  TASKS = 'TASKS',
+  WITHDRAWALS = 'WITHDRAWALS',
+  USERS = 'USERS'
+}
+
 export enum WithdrawalStatus {
   REVIEW = 'REVIEW',
   PAID = 'PAID',
